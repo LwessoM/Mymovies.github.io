@@ -1,0 +1,446 @@
+/* Global Styles */
+
+        
+body {
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+
+    background-color: #181818;
+    color: #F5C518;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Main heading */
+.heading {
+    text-align: center;
+    background-color: #181818;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: auto;
+}
+
+/*DARK KNIGHT PAGE STYLE */
+
+.title {
+    font-size: 2.5em;
+    margin: 0;
+}
+.author {
+    color: #F5C518;
+    font-size: 1em;
+    margin: 5px 0;
+}
+header h1 {
+
+    margin: 0;
+    font-size: 2.5em;
+}
+
+
+/* Nav */
+nav {
+
+    background-color: #333;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+
+    color: #F5C518;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #F5C518;
+    color: #333;
+    border-radius: 4px;
+}
+
+
+
+/* Section  */
+section {
+
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section img {
+
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+
+    color: #181818;
+    font-size: 2em;
+    margin-top: 0;
+}
+
+section h3 {
+
+    color: #333;
+    border-left: 4px solid #F5C518;
+    padding-left: 10px;
+    font-size: 1.5em;
+}
+
+section p {
+    margin: 10px 0;
+}
+
+section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+section ul li {
+    margin-bottom: 8px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #181818;
+    color: #F5C518;
+    font-size: 0.9em;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+/*SCARFACE PAGE */
+
+body.scarface-page nav ul li a:hover{
+    background-color: #8B0000;
+    color: #fff;
+    border-radius: 4px;
+}
+
+body.scarface-page nav ul li a {
+
+    color: #f4f4f4;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.scarface-page section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body.scarface-page section img{
+    width: 100%;
+    max-width: 500px;
+}
+
+body.scarface-page section h2{
+    color: #8B0000;
+    text-align: center;
+}
+
+body.scarface-page movie-details{
+    color: #555;
+    font-size: 0.9em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+body.scarface-page section h3{
+    color: #8B0000;
+    border-left: 4px solid #8B0000;
+    margin-top: 20px;
+    text-align: left;
+    width: 100%;
+
+}
+
+body.scarface-page section p{
+    text-align: left;
+}
+
+body.scarface-page section ul{
+    text-align: left;
+}
+
+
+/*JOKER PAGE */
+
+body.joker-page nav ul li a:hover{
+    background-color: #00b938;
+    color: #fff;
+    border-radius: 4px;
+}
+
+body.joker-page nav ul li a {
+
+    color: #f4f4f4;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.joker-page section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body.joker-page section img{
+    width: 100%;
+    max-width: 500px;
+}
+
+body.joker-page section h2{
+    color: #00b938;
+    text-align: center;
+}
+
+body.joker-page movie-details{
+    color: #555;
+    font-size: 0.9em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+body.joker-page section h3{
+    color: #00b938;
+    border-left: 4px solid #00b938;
+    margin-top: 20px;
+    text-align: left;
+    width: 100%;
+
+}
+
+body.joker-page section p{
+    text-align: left;
+}
+
+body.joker-page section ul{
+    text-align: left;
+}
+
+
+
+/* PURUIST OF HAPPYNESS PAGE */
+body.puruist-page nav ul li a:hover{
+    background-color: #3e5deb;
+    color: #fff;
+    border-radius: 4px;
+}
+
+body.puruist-page nav ul li a {
+
+    color: #f4f4f4;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.puruist-page section h2{
+    color: #3e5deb;
+    text-align: center;
+}
+
+body.puruist-page section h3{
+    color: #3e5deb;
+    border-left: 4px solid #3e5deb;
+    margin-top: 20px;
+    text-align: left;
+    width: 100%;
+
+}
+
+
+/* WOLF OF WALL STREET */
+
+
+
+body.wolf-page nav ul li a:hover{
+    background-color: #dfb80a;
+    color: #fff;
+    border-radius: 4px;
+}
+
+body.wolf-page nav ul li a {
+
+    color: #f4f4f4;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.wolf-page section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body.wolf-page section img{
+    width: 100%;
+    max-width: 500px;
+}
+
+body.wolf-page section h2{
+    color: #dfb80a;
+    text-align: center;
+}
+
+body.wolf-page movie-details{
+    color: #555;
+    font-size: 0.9em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+body.wolf-page section h3{
+    color: #dfb80a;
+    border-left: 4px solid #dfb80a;
+    margin-top: 20px;
+    text-align: left;
+    width: 100%;
+
+}
+
+body.wolf-page section p{
+    text-align: left;
+}
+
+body.wolf-page section ul{
+    text-align: left;
+}
+
+
+
+
+
+
+
+/* Responsive  */
+@media (max-width: 768px) {
+
+nav ul {
+flex-direction: column;
+gap: 10px;
+}
+
+
+header h1 {
+font-size: 2em;
+padding: 20px;
+}
+
+section {
+padding: 15px;
+text-align: center;
+}
+
+section img {
+width: 100%;
+max-width: 300px;
+height: auto;
+margin: 0 auto 15px;
+}
+
+
+section h2 {
+font-size: 1.8em;
+}
+
+
+.movie-details {
+font-size: 0.9em;
+}
+
+section h3 {
+font-size: 1.3em;
+text-align: center;
+}
+
+section p,
+section ul {
+font-size: 1em;
+text-align: center;
+}
+}
+
+@media (max-width: 480px) {
+
+header h1 {
+font-size: 1.8em;
+}
+
+nav ul li a {
+font-size: 1em;
+padding: 6px 10px;
+}
+
+section h2 {
+font-size: 1.5em;
+}
+
+section h3 {
+font-size: 1.2em;
+}
+
+section p,
+section ul {
+font-size: 0.9em;
+}
+}
+
+
+
+
+
